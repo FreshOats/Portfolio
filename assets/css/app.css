@@ -104,9 +104,11 @@ footer a {
   font-size: 50px;
 }
 
+
 .subtitle {
     font-weight: 200;
 }
+
 .boy {
     display: block;
     height: 200px;
@@ -323,4 +325,58 @@ footer a {
   height: 60px;
   padding: 10px;
   background: #f1f3f5;
+}
+
+
+
+.title {
+  overflow: visible;
+  position: relative;
+  display: inline-block;
+}
+
+.title::before,
+.title::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  left: 0%;
+}
+
+.title::after {
+  content: attr(data-replace);
+  height: 100%;
+  width: 200%;
+  left: 0%;
+  top: 0;
+  transform-origin: 100% 100%;
+  transform: translate3d(200%, 0, 0);
+  color: #000000;
+  background-color: white;
+}
+
+.title:hover::before {
+    transform-origin: 0% 50%;
+    transform: scaleX(1);
+}
+
+.title:hover::after {
+  transform: translate3d(0, 0, 0);
+}
+
+.title span {
+  display: inline-block;
+}
+
+.title:hover span {
+  transform: translate3d(-300%, 0, 0);
+}
+
+#my-glyphicon:hover {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
 }
