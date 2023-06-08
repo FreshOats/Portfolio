@@ -74,6 +74,7 @@ footer a {
 
 .education-item {
   padding: 20px 0;
+  width: 600px;
 }
 
 .container-color, .container-dark {
@@ -352,7 +353,7 @@ footer a {
   transform-origin: 100% 100%;
   transform: translate3d(200%, 0, 0);
   color: #000000;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .title:hover::before {
