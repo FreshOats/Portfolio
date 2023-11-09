@@ -15,7 +15,7 @@ h1 {
 }
 
 footer {
-  background-color: #08111f;
+  background-color: #1f0808;
   color: #fff;
   display: flex;
   align-items: flex-start;
@@ -32,7 +32,7 @@ footer a {
 }
 
 .wave {
-  background: linear-gradient(to top, #003949, #081b32);
+  background: linear-gradient(to top, #490100, #320808);
   min-height: 350px;
   color: #fff;
   display: flex;
@@ -83,16 +83,16 @@ footer a {
 }
 
 .container-color {
-  background: linear-gradient(to bottom, #003949, #081b32); 
+  background: linear-gradient(to bottom, #490000, #320808); 
 }
 
 .container-dark {
-  background-color: #081b32;
+  background-color: #320808;
 }
 
 .card-title {
   margin-top: 50px;
-  color: #00546b;
+  color: #6b0000;
   text-align: center;
 }
 
@@ -101,7 +101,7 @@ footer a {
 }
 
 .card-icon{
-  color: #00546b;
+  color: #6b0000;
   font-size: 50px;
 }
 
@@ -161,7 +161,7 @@ footer a {
 	 content: "";
 	 width: 3px;
 	 height: 100%;
-	 background: linear-gradient(to bottom, #00546b, #081b32);
+	 background: linear-gradient(to bottom, #6b0000, #320808);
 	 left: 50%;
 	 top: 0;
 	 position: absolute;
@@ -177,7 +177,7 @@ footer a {
 	 position: relative;
 }
  #timeline .timeline-item .timeline-icon {
-	 background:linear-gradient(to right, #00546b, #081b32);
+	 background:linear-gradient(to right, #6b0000, #320808);
 	 width: 50px;
 	 height: 50px;
 	 position: absolute;
@@ -199,7 +199,7 @@ footer a {
 }
  #timeline .timeline-item .timeline-content h2 {
 	 padding: 15px;
-	 background: linear-gradient(to left, #00546b, #081b32);
+	 background: linear-gradient(to left, #6b0000, #320808);
 	 color: #fff;
 	 margin: -20px -20px 0 -20px;
 	 font-weight: 300;
@@ -217,7 +217,7 @@ footer a {
 	 height: 0;
 	 border-top: 7px solid transparent;
 	 border-bottom: 7px solid transparent;
-	 border-left: 7px solid #00546b;
+	 border-left: 7px solid #6b0000;
 }
  #timeline .timeline-item .timeline-content.right {
 	 float: right;
@@ -227,11 +227,11 @@ footer a {
 	 right: 45%;
 	 left: inherit;
 	 border-left: 0;
-	 border-right: 7px solid #081b32;
+	 border-right: 7px solid #320808;
 }
  .btn {
-	 background-color: #081b32;
-   border: 2px solid #081b32;
+	 background-color: #320808;
+   border: 2px solid #320808;
    color: #fff;
    border-radius: 0;
 
@@ -254,7 +254,7 @@ footer a {
 		 left: 10%;
 		 margin-left: -6px;
 		 border-left: 0;
-		 border-right: 7px solid #081b32;
+		 border-right: 7px solid #320808;
 	}
 	 #timeline .timeline-item .timeline-icon {
 		 left: 0;
@@ -297,7 +297,7 @@ footer a {
   left: 0;
   height: 50px;
   padding: 10px;
-  background: #081b32;
+  background: #320808;
   border: 0;
   border-radius: 0;
 }
@@ -325,7 +325,7 @@ footer a {
   left: 0;
   height: 60px;
   padding: 10px;
-  background: #f1f3f5;
+  background: #f5f1f1;
 }
 
 
