@@ -55,19 +55,21 @@ footer a {
   margin-top: 30px;
 }
 
+
 .custom-card {
   transform: translateY(-150px);
   text-align: center;
-  width:500px;
+  width:600px;
   max-width: 90%;
   margin: 0 auto;
+  fill:#dbdbdb;
   
 }
-
+/* 
 .card {
   border-radius: 0;
   box-shadow:0 8px 17px 2px rgba(152,152,152,0.14),0 3px 14px 2px rgba(152,152,152,0.12),0 5px 5px -3px rgba(152,152,152,0.72);
-}
+} */
 
 .education-container {
   padding: 60px 0;
@@ -84,12 +86,18 @@ footer a {
 }
 
 .container-color {
-  background: linear-gradient(to bottom, #9e0300, #000000); 
+  background: linear-gradient(to bottom, #9e0300, #000000);
+  min-height: 40px; 
+}
+
+.container-color-2 {
+  background: #000000;
 }
 
 .container-dark {
   background-color: #000000;
 }
+
 
 .card-title {
   margin-top: 50px;
@@ -99,6 +107,7 @@ footer a {
 
 .card-text {
   line-height: 2;
+  color:#dbdbdb
 }
 
 .card-icon{
@@ -367,8 +376,15 @@ footer a {
   top: 0;
   transform-origin: 100% 100%;
   transform: translate3d(200%, 0, 0);
-  color: #000000;
   background-color: #dbdbdb;
+  animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+  0%{color: #9e0300;}
+  49%{color:#9e0300;}
+  60%{color:transparent;}
+  99%{color: transparent;}
+  100%{color: #9e0300;}
 }
 
 .title:hover::before {
