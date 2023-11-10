@@ -377,7 +377,7 @@ footer a {
   transform-origin: 100% 100%;
   transform: translate3d(200%, 0, 0);
   background-color: #dbdbdb;
-  animation: blinkingText 1.2s infinite;
+  animation: blinkingText 2s infinite;
 }
 @keyframes blinkingText {
   0%{color: #9e0300;}
