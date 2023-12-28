@@ -5131,7 +5131,7 @@ h1.page-title {
 
 .widget_search>.search-form .search-field {
     margin-right: calc(-1 * var(--button--border-width));
-    -webkit-appearance: none;
+    appearance: none;
     margin-bottom: calc(.5 * var(--global--spacing-vertical))
 }
 
