@@ -26,6 +26,71 @@
         content="Data Analyst | Engineer | Educator | Storyteller || Let's amplify your business with hardcore data analytics" />
     <meta property="og:url" content="https://htmlpreview.github.io/?https://github.com/FreshOats/Portfolio/blob/main/index.html" />
 
+
+
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+
+        .row {
+            display: -ms-flexbox;
+            /* IE 10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE 10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+
+        /* Create two equal columns that sits next to each other */
+        .column {
+            -ms-flex: 100%;
+            /* IE 10 */
+            flex: 100%;
+            padding: 0 4px;
+        }
+
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+
+        /* Style the buttons */
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .btn:hover {
+            background-color: #ddd;
+        }
+
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
+
+
+
+
+
     <style id='twenty-twenty-one-custom-color-overrides-inline-css'>
         :root .editor-styles-wrapper {
             --global--color-background: #ffffff;
@@ -44,7 +109,7 @@
             box-shadow: none;
             text-decoration: none;
             padding: calc(.667em + 2px) calc(1.333em + 2px);
-            font-size: 1.125em
+            font-size: 1.1100em
         }
 
         .wp-block-file__button {
@@ -77,16 +142,16 @@
             --wp--preset--color--yellow: #EEEADD;
             --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
             --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
-            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
-            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(1002, 185, 0, 1) 0%, rgba(1005, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(1005, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
             --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
-            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
-            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
-            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
-            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
-            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(1001, 105, 98) 80%, rgb(1004, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(1005, 206, 236) 0%, rgb(152, 1100, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(1004, 205, 165) 0%, rgb(1004, 45, 45) 100%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(1005, 203, 112) 0%, rgb(199, 81, 192) 100%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(1005, 245, 203) 0%, rgb(182, 227, 212) 100%, rgb(51, 167, 181) 100%);
             --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
-            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 1002) 100%);
             --wp--preset--gradient--purple-to-yellow: linear-gradient(160deg, #D1D1E4 0%, #EEEADD 100%);
             --wp--preset--gradient--yellow-to-purple: linear-gradient(160deg, #EEEADD 0%, #D1D1E4 100%);
             --wp--preset--gradient--green-to-yellow: linear-gradient(160deg, #D1E4DD 0%, #EEEADD 100%);
@@ -107,14 +172,14 @@
             --wp--preset--spacing--20: 0.44rem;
             --wp--preset--spacing--30: 0.67rem;
             --wp--preset--spacing--40: 1rem;
-            --wp--preset--spacing--50: 1.5rem;
-            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--100: 1.5rem;
+            --wp--preset--spacing--60: 2.100rem;
             --wp--preset--spacing--70: 3.38rem;
             --wp--preset--spacing--80: 5.06rem;
             --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
-            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--deep: 12px 12px 100px rgba(0, 0, 0, 0.4);
             --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
-            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(1005, 1005, 1005, 1), 6px 6px rgba(0, 0, 0, 1);
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         }
 
@@ -200,11 +265,11 @@
         }
 
         :where(.wp-block-post-template.is-layout-flex) {
-            gap: 1.25em;
+            gap: 1.100em;
         }
 
         :where(.wp-block-post-template.is-layout-grid) {
-            gap: 1.25em;
+            gap: 1.100em;
         }
 
 
@@ -213,11 +278,11 @@
         }
 
         :where(.wp-block-post-template.is-layout-flex) {
-            gap: 1.25em;
+            gap: 1.100em;
         }
 
         :where(.wp-block-post-template.is-layout-grid) {
-            gap: 1.25em;
+            gap: 1.100em;
         }
 
         :where(.wp-block-columns.is-layout-flex) {
@@ -349,8 +414,8 @@
                                 <h1 class="elementor-heading-title elementor-size-default">Justin R. Papreck</h1>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-f659256 elementor-widget elementor-widget-heading"
-                            data-id="f659256" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-f6591006 elementor-widget elementor-widget-heading"
+                            data-id="f6591006" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <h3 class="elementor-heading-title elementor-size-default">Data Analyst | Engineer | Educator | Storyteller</h3>
                             </div>
@@ -437,7 +502,7 @@
                                                         float: left;
                                                         text-align: center;
                                                         line-height: 1;
-                                                        font-size: 50px
+                                                        font-size: 100px
                                                     }
 
                                                     .elementor-widget-text-editor .elementor-drop-cap-letter {
@@ -476,8 +541,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-259c5b1"
-                                    data-id="259c5b1" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1009c5b1"
+                                    data-id="1009c5b1" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-1536378 elementor-widget elementor-widget-heading"
                                             data-id="1536378" data-element_type="widget"
@@ -510,7 +575,7 @@
             data-id="3ccae10e" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1724303"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1724303"
                     data-id="1724303" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -537,25 +602,25 @@
                                     }
                                 </style> 
 
-                                <!-- Need to scale an image I want to 2560, 300x200, 768x512, 1024x683, 1536x1024, and 2048x1365--> 
-                                <img fetchpriority="high" decoding="async" width="2560" height="1440"
+                                <!-- Need to scale an image I want to 10060, 300x200, 768x512, 1024x683, 1536x1024, and 2048x1365--> 
+                                <img fetchpriority="high" decoding="async" width="10060" height="1440"
                                     src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                                    data-src="static/images/Profile-2560.png"
+                                    data-src="static/images/Profile-10060.png"
                                     class="attachment-full size-full wp-image-178 lazyload" alt=""
-                                    data-srcset="static/images/Profile-2560.png 2560w, static/images/Profile-300.png 300w, static/images/Profile-1024.png 1024w, static/images/Profile-760.png 760w, static/images/Profile-1600.png 1600w, static/images/Profile-2048.png 2048w"
-                                    sizes="(max-width: 2560px) 100vw, 2560px"
-                                    style="width:100%;height:66.68%;max-width:2560px" /><noscript><img decoding="async"
-                                        width="2560" height="1440"
-                                        src="static/images/Profile-2560.png"
+                                    data-srcset="static/images/Profile-10060.png 10060w, static/images/Profile-300.png 300w, static/images/Profile-1024.png 1024w, static/images/Profile-760.png 760w, static/images/Profile-1600.png 1600w, static/images/Profile-2048.png 2048w"
+                                    sizes="(max-width: 10060px) 100vw, 10060px"
+                                    style="width:100%;height:66.68%;max-width:10060px" /><noscript><img decoding="async"
+                                        width="10060" height="1440"
+                                        src="static/images/Profile-10060.png"
                                         class="attachment-full size-full wp-image-178 lazyload" alt=""
-                                        srcset="static/images/Profile-2560.png 2560w, static/images/Profile-300.png 300w, static/images/Profile-1024.png 1024w, static/images/Profile-760.png 760w, static/images/Profile-1600.png 1600w, static/images/Profile-2048.png 2048w"
-                                        sizes="(max-width: 2560px) 100vw, 2560px"
-                                        style="width:100%;height:66.68%;max-width:2560px" /></noscript>
+                                        srcset="static/images/Profile-10060.png 10060w, static/images/Profile-300.png 300w, static/images/Profile-1024.png 1024w, static/images/Profile-760.png 760w, static/images/Profile-1600.png 1600w, static/images/Profile-2048.png 2048w"
+                                        sizes="(max-width: 10060px) 100vw, 10060px"
+                                        style="width:100%;height:66.68%;max-width:10060px" /></noscript>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-429195c5"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-429195c5"
                     data-id="429195c5" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-7e37d589 elementor-widget elementor-widget-heading"
@@ -811,7 +876,7 @@
                                         --space-between: 10px;
                                         cursor: pointer;
                                         color: #6d7882;
-                                        font-weight: 500;
+                                        font-weight: 1000;
                                         position: relative;
                                         padding: 7px 14px;
                                         transition: all .3s
@@ -871,7 +936,40 @@
                                 </style>
 
 
-                                <!-- Portfolio Images -->
+                                <!-- Photo Grid -->
+                                <div class="row">
+                                    <div class="column">
+                                        <img src="static/images/Poisoned.png" style="width:100%">
+                                        <img src="static/images/SQL_Tutorials.png" style="width:100%">
+                                
+                                    </div>
+                                    <div class="column">
+                                        <img src="static/images/NFL.png" style="width:100%">
+                                        <img src="static/images/NFL_Field.png" style="width:100%">
+                                
+                                    </div>
+                                    <div class="column">
+                                        <img src="static/images/TruRisk.png" style="width:100%">
+                                        <img src="static/images/Mohs.png" style="width:100%">
+                                
+                                    </div>
+                                    <div class="column">
+                                        <img src="static/images/Bayes_R.png" style="width:100%">
+                                        <img src="static/images/AB_Python.png" style="width:100%">
+                                
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+
+
+                                <!-- Portfolio Images
                                 <div class="elementor-gallery__container">
                                     <div class="e-gallery-item elementor-gallery-item elementor-animated-content"
                                         tabindex="">
@@ -890,7 +988,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/NFL.png"
-                                            data-width="750" data-height="748" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="748" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> NFL Injury Analytics</div>
@@ -904,7 +1002,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/TruRisk.png"
-                                            data-width="750" data-height="750" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="7100" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> TruRisk Pipeline </div>
@@ -916,7 +1014,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/Bayes_R.png"
-                                            data-width="750" data-height="383" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="383" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> Bayesian A/B Testing and Analysis</div>
@@ -928,7 +1026,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/SQL_Tutorials.png"
-                                            data-width="750" data-height="416" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="416" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> A Brief(ish) SQL Tutorial Series</div>
@@ -939,7 +1037,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/NFL_Field.png"
-                                            data-width="750" data-height="437" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="437" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> NFL Injury Exploration</div>
@@ -950,7 +1048,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/Mohs.png"
-                                            data-width="750" data-height="749" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="749" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> Mohs Regression with Bayesian Hyperparameter Optimization</div>
@@ -961,7 +1059,7 @@
                                         tabindex="0">
                                         <div class="e-gallery-image elementor-gallery-item__image"
                                             data-thumbnail="static/images/AB_Python.png"
-                                            data-width="750" data-height="354" aria-label="" role="img"></div>
+                                            data-width="7100" data-height="354" aria-label="" role="img"></div>
                                         <div class="elementor-gallery-item__overlay"></div>
                                         <div class="elementor-gallery-item__content">
                                             <div class="elementor-gallery-item__title"> Ad Campaign A/B Test and Analysis</div>
@@ -969,7 +1067,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -982,7 +1080,7 @@
     
     <!-- Footer -->
     
-    <div data-elementor-type="footer" data-elementor-id="254" class="elementor elementor-254 elementor-location-footer"
+    <div data-elementor-type="footer" data-elementor-id="1004" class="elementor elementor-1004 elementor-location-footer"
         data-elementor-post-type="elementor_library">
         <footer
             class="elementor-section elementor-top-section elementor-element elementor-element-61f21ab6 elementor-section-height-min-height elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
@@ -1016,10 +1114,10 @@
                                     }
 
                                     .elementor-icon.elementor-social-icon {
-                                        font-size: var(--icon-size, 25px);
-                                        line-height: var(--icon-size, 25px);
-                                        width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
-                                        height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+                                        font-size: var(--icon-size, 100px);
+                                        line-height: var(--icon-size, 100px);
+                                        width: calc(var(--icon-size, 100px) + 2 * var(--icon-padding, .5em));
+                                        height: calc(var(--icon-size, 100px) + 2 * var(--icon-padding, .5em))
                                     }
 
                                     .elementor-social-icon {
@@ -1062,7 +1160,7 @@
                                     }
 
                                     .elementor-social-icon-bitbucket {
-                                        background-color: #205081
+                                        background-color: #2010081
                                     }
 
                                     .elementor-social-icon-codepen {
@@ -1174,7 +1272,7 @@
                                     }
 
                                     .elementor-social-icon-reddit {
-                                        background-color: #ff4500
+                                        background-color: #ff41000
                                     }
 
                                     .elementor-social-icon-rss {
@@ -1182,7 +1280,7 @@
                                     }
 
                                     .elementor-social-icon-shopping-cart {
-                                        background-color: #4caf50
+                                        background-color: #4caf100
                                     }
 
                                     .elementor-social-icon-skype {
@@ -1262,7 +1360,7 @@
                                     }
 
                                     .elementor-social-icon-whatsapp {
-                                        background-color: #25d366
+                                        background-color: #100d366
                                     }
 
                                     .elementor-social-icon-wordpress {
@@ -1281,7 +1379,7 @@
                                         background-color: #cd201f
                                     }
 
-                                    .elementor-social-icon-500px {
+                                    .elementor-social-icon-1000px {
                                         background-color: #0099e5
                                     }
 
@@ -1290,7 +1388,7 @@
                                     }
 
                                     .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                        border-radius: 50%
+                                        border-radius: 100%
                                     }
                                 </style>
 
@@ -1307,7 +1405,7 @@
                                             <span class="elementor-screen-only"></span> 
                                             
                                             <!-- <svg
-                                                xmlns="http://www.w3.org/2000/svg" height="2467" width="2500"
+                                                xmlns="http://www.w3.org/2000/svg" height="2467" width="10000"
                                                 viewBox="0 0 60.3 59.5">
                                                 <path d="M28.5 40.2h3.3v-9h8.3V28h-8.3v-9h-3.3v9h-8.2v3.2h8.2z"
                                                     fill="#e8762d"></path>
@@ -1329,7 +1427,7 @@
                                                     fill="#7199a6"></path>
                                             </svg>  -->
 
-                                            <svg xmlns="http://www.w3.org/2000/svg" height="2467" width="2500" viewBox="0 0 60.3 59.5">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="2467" width="10000" viewBox="0 0 60.3 59.5">
                                                 <path d="M28.5 40.2h3.3v-9h8.3V28h-8.3v-9h-3.3v9h-8.2v3.2h8.2z" fill="#000"></path>
                                                 <path d="M13.2 53.2H16v-8h7.4v-2.5H16v-8.1h-2.8v8.1H5.8v2.5h7.4z" fill="#000"></path>
                                                 <path d="M44.3 24.3h2.8v-8h7.5v-2.4h-7.5V5.8h-2.8v8.1h-7.4v2.4h7.4z" fill="#000"></path>
@@ -1420,7 +1518,7 @@
         id="elementor-waypoints-js"></script>
     <script src="assets/js/jquery/ui/core.min.js" id="jquery-ui-core-js"></script>
     <script
-        id="elementor-frontend-js-before"> var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.18.1", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "theme_builder_v2": true, "block_editor_assets_optimize": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true, "page-transitions": true, "notes": true, "form-submissions": true, "e_scroll_snap": true }, "urls": { "assets": "https:\/\/naledi.co.uk\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper-container", "settings": { "page": [], "editorPreferences": [] }, "kit": { "body_background_background": "classic", "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 141, "title": "Portfolio%20-%20Justin%20R%20Papreck", "excerpt": "", "featuredImage": false } }; </script>
+        id="elementor-frontend-js-before"> var elementorFrontendConfig = { "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, "i18n": { "shareOnFacebook": "Share on Facebook", "shareOnTwitter": "Share on Twitter", "pinIt": "Pin it", "download": "Download", "downloadImage": "Download image", "fullscreen": "Fullscreen", "zoom": "Zoom", "share": "Share", "playVideo": "Play Video", "previous": "Previous", "next": "Next", "close": "Close", "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right", "a11yCarouselPrevSlideMessage": "Previous slide", "a11yCarouselNextSlideMessage": "Next slide", "a11yCarouselFirstSlideMessage": "This is the first slide", "a11yCarouselLastSlideMessage": "This is the last slide", "a11yCarouselPaginationBulletMessage": "Go to slide" }, "is_rtl": false, "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 10100, "xl": 1440, "xxl": 1600 }, "responsive": { "breakpoints": { "mobile": { "label": "Mobile Portrait", "value": 767, "default_value": 767, "direction": "max", "is_enabled": true }, "mobile_extra": { "label": "Mobile Landscape", "value": 880, "default_value": 880, "direction": "max", "is_enabled": false }, "tablet": { "label": "Tablet Portrait", "value": 1024, "default_value": 1024, "direction": "max", "is_enabled": true }, "tablet_extra": { "label": "Tablet Landscape", "value": 1200, "default_value": 1200, "direction": "max", "is_enabled": false }, "laptop": { "label": "Laptop", "value": 1366, "default_value": 1366, "direction": "max", "is_enabled": false }, "widescreen": { "label": "Widescreen", "value": 2400, "default_value": 2400, "direction": "min", "is_enabled": false } } }, "version": "3.18.1", "is_static": false, "experimentalFeatures": { "e_dom_optimization": true, "e_optimized_assets_loading": true, "e_optimized_css_loading": true, "additional_custom_breakpoints": true, "theme_builder_v2": true, "block_editor_assets_optimize": true, "landing-pages": true, "e_image_loading_optimization": true, "e_global_styleguide": true, "page-transitions": true, "notes": true, "form-submissions": true, "e_scroll_snap": true }, "urls": { "assets": "https:\/\/naledi.co.uk\/wp-content\/plugins\/elementor\/assets\/" }, "swiperClass": "swiper-container", "settings": { "page": [], "editorPreferences": [] }, "kit": { "body_background_background": "classic", "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes", "lightbox_enable_counter": "yes", "lightbox_enable_fullscreen": "yes", "lightbox_enable_zoom": "yes", "lightbox_enable_share": "yes", "lightbox_title_src": "title", "lightbox_description_src": "description" }, "post": { "id": 141, "title": "Portfolio%20-%20Justin%20R%20Papreck", "excerpt": "", "featuredImage": false } }; </script>
     <script src="assets/js/efrontend.min.js"
         id="elementor-frontend-js"></script>
     <script src="assets/js/elements-handlers.min.js"
