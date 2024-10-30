@@ -12587,11 +12587,11 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-kit-120 {
-    --e-global-color-primary: #8f0c1b;
-    --e-global-color-secondary: #FFC6B4;
+    --e-global-color-primary: #490006;
+    --e-global-color-secondary: #ffb4b4;
     --e-global-color-text: #200000;
     --e-global-color-accent: #8f0c1b;
-    --e-global-color-d6cea4e: #FFFFFF;
+    --e-global-color-d6cea4e: #ffffffd4;
     --e-global-color-8b6c3df: #ff8c8c;
     --e-global-color-14ef391: #200000;
     --e-global-color-d78e1f9: #FF8E7F;
@@ -12778,7 +12778,7 @@ button.swiper-pagination-bullet {
 }
 
 .elementor-section.elementor-section-boxed>.elementor-container {
-    max-width: 1000px;
+    max-width: 1024px;
 }
 
 .e-con {
@@ -12860,11 +12860,11 @@ h1.entry-title {
     }
 
     .elementor-section.elementor-section-boxed>.elementor-container {
-        max-width: 767px;
+        max-width: 1024px;
     }
 
     .e-con {
-        --container-max-width: 767px;
+        --container-max-width: 1024px;
     }
 }
 
@@ -13303,9 +13303,14 @@ h1.entry-title {
     text-transform: none;
     font-style: normal;
     text-decoration: none;
+    text-align: center;
     line-height: 1.2em;
     letter-spacing: 0px;
     word-spacing: 0em;
+}
+
+.elementor-element-f6591006 {
+    text-align: center;
 }
 
 .elementor-141 .elementor-element.elementor-element-f659256 {
@@ -13575,7 +13580,7 @@ h1.entry-title {
 }
 
 .elementor-141 .elementor-element.elementor-element-429195c5>.elementor-element-populated {
-    padding: 0% 15% 0% 10%;
+    padding: 0% 0% 0% 30%;
 }
 
 .elementor-141 .elementor-element.elementor-element-7e37d589 .elementor-heading-title {
@@ -13588,10 +13593,11 @@ h1.entry-title {
 
 .elementor-141 .elementor-element.elementor-element-5d8ca031 {
     color: var(--e-global-color-d6cea4e);
+    text-align: left;
 }
 
 .elementor-141 .elementor-element.elementor-element-5d8ca031>.elementor-widget-container {
-    margin: 30px 0px 32px 0px;
+    margin: 20px 0px 32px 0px;
 }
 
 .elementor-141 .elementor-element.elementor-element-ac0337e>.elementor-container {
@@ -13841,7 +13847,7 @@ body .elementor-141 .elementor-element.elementor-element-16d49b1 .elementor-labe
     }
 
     .elementor-141 .elementor-element.elementor-element-429195c5 {
-        width: 50%;
+        width: 80%;
     }
 
     .elementor-141 .elementor-element.elementor-element-5f9fe3f {
